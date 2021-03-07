@@ -1,0 +1,74 @@
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(2, 0, 0);
+    font-size: 20px;
+    font-weight:bold;
+    line-height: 1.5;
+    min-width:auto;
+    max-width:1024;
+    margin: 50px 180px;
+    background-image:url("fon.jpg");
+	background-attachment: scroll ;
+	background-position: top center;
+    
+}
+
+.photo {
+    max-width: 400px;
+    max-height: 400px;
+    overflow: hidden;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+.fullName {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: -.15rem;
+    line-height: 1;
+    margin: 1rem 0 0;
+}
+
+.address {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -.15rem;
+    line-height: 1;
+    margin: 1rem 0 0;
+}
+
+.section {
+    margin: 0 0 3rem;
+}
+
+.sectionHeader {
+    border-top: 4px solid #413a81;
+    border-bottom: 2px solid #362828;
+    padding: 10px 0;
+    margin-bottom: 1.5rem;
+}
+
+.sectionHeader > h2 {
+    font-weight: 900;
+    font-size: 1.75rem;
+    letter-spacing: -.05rem;
+    margin: 0;
+}
+
+.sectionContent {
+    margin-bottom: 2rem;
+}
+
+.example-code {
+        justify-content:start;
+        margin: 0 auto;
+        font-size: 1.5em;
+}
+
+
+
